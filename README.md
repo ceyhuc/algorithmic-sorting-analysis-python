@@ -23,15 +23,15 @@ This project generates a random logistics dataset and performs two-level sorting
 
 ## How to Run
 
-1. Run the script `477dd2da-979d-489a-943c-16d63b1374d0.py`:
+1. Run the script `asa.py`:
 
 ```bash
-python 477dd2da-979d-489a-943c-16d63b1374d0.py
+python asa.py
 ```
 
 2. The script will generate the following files:
-   - `hw05_input.csv`: The generated logistics dataset.
-   - `hw05_output.txt`: Sorted results and performance metrics for each algorithm.
+   - `input.csv`: The generated logistics dataset.
+   - `output.txt`: Sorted results and performance metrics for each algorithm.
 
 ## Key Components
 
@@ -63,7 +63,7 @@ Writes:
 
 ## Output Example
 
-The `hw05_output.txt` file includes:
+The `output.txt` file includes:
 - Formatted sorted results (by Bubble Sort)
 - Checks if Merge/Quick Sorts produced identical results
 - Comparison counts for each sorting level and algorithm
